@@ -1,3 +1,6 @@
+
+<img width="1614" alt="Captura de pantalla 2024-08-07 a la(s) 03 13 16" src="https://github.com/user-attachments/assets/4078fa51-dd55-47d6-86c7-d2a786c92726">
+
 npm por instalar 
 
 1. npm install o npm install --save-dev jest supertest
@@ -14,17 +17,17 @@ Revisar en l package.json  si sale
 
 Agregar al TC 
 
-GET http://localhost:3000/cafes/
+a. GET http://localhost:3000/cafes/
 
-DELETE http://localhost:3000/cafes/123456789
+b. DELETE http://localhost:3000/cafes/123456789
         HTTP Headers Authorization token
-POST http://localhost:3000/cafes/1234
+c. POST http://localhost:3000/cafes/1234
         Body / JSON Context 
         { 
             "id": 1234,
             "nombre": "nuevo cafe" 
         }
-PUT http://localhost:3000/cafes/1234
+d. PUT http://localhost:3000/cafes/1234
  Body / JSON Context 
         { 
             "id": 1234,
