@@ -21,12 +21,14 @@ a. GET http://localhost:3000/cafes/
 
 b. DELETE http://localhost:3000/cafes/123456789
         HTTP Headers Authorization token
+        
 c. POST http://localhost:3000/cafes/1234
         Body / JSON Context 
         { 
             "id": 1234,
             "nombre": "nuevo cafe" 
         }
+        
 d. PUT http://localhost:3000/cafes/1234
  Body / JSON Context 
         { 
